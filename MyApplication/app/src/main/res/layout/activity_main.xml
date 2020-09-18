@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/first_beacon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/beacon"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/second_beacon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/beacon"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/third_beacon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/beacon"
+        android:layout_alignParentBottom="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/view_move"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:src="@drawable/human"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Generiraj"/>
+
+
+</RelativeLayout>
